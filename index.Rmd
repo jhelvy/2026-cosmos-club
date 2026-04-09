@@ -1,0 +1,252 @@
+---
+title: "&nbsp;"
+output:
+  xaringan::moon_reader:
+    css:
+      - default
+      - css/lexis.css
+      - css/lexis-fonts.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+    seal: true
+---
+
+<style>
+.tab {
+    display: inline-block;
+    margin-left: 8em;
+}
+</style>
+
+```{r, child="setup.Rmd"}
+```
+
+---
+
+# .center[China is posting some impressive EV numbers]
+
+<br>
+
+--
+
+### PEV sales (BEV + PHEV): **1.37 M (2020) --> 12.9 M (2024)**
+
+<div><span class="tab"><span class="tab"><span class="tab"></span>&nbsp;&nbsp;&nbsp;(46.7% of sales)</div>
+
+--
+
+<br>
+
+### PEV exports (BEV + PHEV): **0.2 M (2020) --> 1.28 M (2024)**
+
+<div><span class="tab"><span class="tab"><span class="tab"></span>&nbsp;&nbsp;&nbsp;(25% of vehicle exports)</div>
+
+---
+
+background-color: #fff
+
+<center>
+<img src="images/annual-sales.png" width=80%>
+</center>
+
+---
+
+background-color: #fff
+
+## .center[EV sales in US reaching ~10% of sales]
+
+<center>
+<img src="images/ev-sales-us.png" width=70%>
+</center>
+
+.font80[Source: Argonne National Lab, https://www.anl.gov/ev-facts/model-sales]
+
+---
+
+class: center
+
+.leftcol70[
+
+<center>
+<img src="images/ev-price-slope-edit.png" width=100%>
+</center>
+
+.font70[Source: https://www.iea.org/reports/global-ev-outlook-2024/executive-summary]
+
+]
+
+.rightcol30[
+
+### The EV sector has an affordability problem<br>(except in China)
+
+]
+
+---
+
+class: center
+background-color: #fff
+
+## BEVs Concentrated in High-Price Segments in US
+
+<br>
+
+**In 2024, only 2.2% of new and 3.6% of used listings under $45,000 were BEVs**
+
+<center>
+<img src="images/bev_percent_listings.png" width=100%>
+</center>
+
+.font80[Data pulled from ~80k dealerships, 2016 to 2024. Source: marketcheck.com]
+
+---
+
+class: center
+
+### China offers more affordable BEVs across all range categories
+
+<center>
+<img src="images/range-price-us-china-class-2024-us.png" width=100%>
+</center>
+
+Data scraped from autocango.com (China) and carsheet.io (USA)
+
+---
+
+class: center
+
+### China offers more affordable BEVs across all range categories
+
+<center>
+<img src="images/range-price-us-china-class-2024-both.png" width=100%>
+</center>
+
+Data scraped from autocango.com (China) and carsheet.io (USA)
+
+---
+
+class: center
+
+### China offers more affordable BEVs across all range categories
+
+<center>
+<img src="images/range-price-us-china-class-2024-labels-edit.png" width=100%>
+</center>
+
+Data scraped from autocango.com (China) and carsheet.io (USA)
+
+---
+
+class: middle, center, inverse
+
+# The biggest competitor<br>to an American EV<br>is not a Chinese EV...<br><br>...it's a gas car
+
+---
+
+background-image: url("images/top-four-1.png")
+background-size: cover
+
+---
+
+background-image: url("images/top-four-2.png")
+background-size: cover
+
+---
+
+# Strategic Implications
+
+<br>
+
+### **Global Market Share Erosion**: U.S. autos will not be competitive abroad without affordable EVs
+
+<br>
+
+### **Trade Imbalance**: U.S. could go from net vehicle _exporter_ to _importer_ 
+
+### (U.S. exported $15B in vehicles and parts to Canada in 2024 🇨🇦)
+
+<br>
+
+### **Exployment Impacts**:  U.S. auto employs 10.1 million Americans, $730B in annual paychecks
+
+---
+
+# Strategic Response Options
+
+<br>
+
+### **North American Integration**: Create sufficient scale with Canada and Mexico partnerships 🇨🇦🇲🇽
+
+### **Sustained Policy Support**: Maintain IRA incentives during transition
+
+### **Battery Manufacturing Focus**: Prioritize domestic production
+### (Platform for commercializing next-gen US technologies)
+
+### **Strategic Chinese Partnerships**: Form tech relationships for market access, e.g. licensing agreements and FDI
+
+---
+
+class: inverse 
+background-image: url("images/blue.jpg")
+background-size: cover
+
+<br>
+
+# Thanks!
+
+<br>
+
+### <span class="white-text">https://jhelvy.github.io/2025-ucsd-us-china</span>
+
+<style>
+.white-text a {
+  color: white !important;
+}
+</style>
+
+.footer-large[.white[.right[
+
+@jhelvy.bsky.social `r fa(name = "bluesky", fill = "white")`<br>
+@jhelvy `r fa(name = "github", fill = "white")`<br>
+jhelvy.com `r fa(name = "link", fill = "white")`<br>
+jph@gwu.edu `r fa(name = "paper-plane", fill = "white")`
+
+]]]
+
+---
+
+class: inverse, middle, center
+
+# Extra Slides
+
+---
+
+.leftcol75[
+
+<center>
+<img src="images/covid.png" width=100%>
+</center>
+
+.font60[Source: Roberson, Laura A., *Pantha, S., & Helveston, J.P. (2024) “Battery-Powered Bargains? Assessing Electric Vehicle Resale Value in the United States” Environmental Research Letters.]
+
+]
+
+.rightcol25[
+
+### .center[Used market is more affordable, but post-COVID prices are up in all markets, not just EVs]
+
+]
+
+---
+
+class: center
+background-color: #fff
+
+# The BEV Deserts of America
+
+<center>
+<img src="images/burden_map_25k.png" width=100%>
+</center>
