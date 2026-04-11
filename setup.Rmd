@@ -1,4 +1,8 @@
 <style>
+.tab {
+    display: inline-block;
+    margin-left: 8em;
+}
 .title-slide .remark-slide-number {
   display: none;
 }
@@ -55,4 +59,27 @@ meta() %>%
     twitter_card_type = "summary_large_image",
     twitter_creator = "@jphelveston"
   )
+
+# Vehicle listings summary table
+summary_dt_raw <- read_csv(here('data', 'listings_summary.csv'))
+total_listings <- sum(summary_dt_raw$n) / 10^6
+summary_dt <- summary_dt_raw %>% 
+    mutate(
+        n = scales::comma(n), 
+        vehicle_type = ifelse(vehicle_type == 'car', 'Car', 'SUV')
+    ) %>% 
+    pivot_wider(
+        names_from = powertrain,
+        values_from = n
+    ) %>% 
+    select(
+        Type = vehicle_type,
+        Conventional = conventional, 
+        Hybrid = hev, 
+        PHEV = phev, 
+        BEV = bev, 
+        inventory_type
+    ) %>% 
+    mutate(PHEV = ifelse(is.na(PHEV), 0, PHEV)) %>% 
+    rename(CV = Conventional, HEV = Hybrid)
 ```

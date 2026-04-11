@@ -15,15 +15,14 @@ output:
     seal: true
 ---
 
-<style>
-.tab {
-    display: inline-block;
-    margin-left: 8em;
-}
-</style>
-
 ```{r, child="setup.Rmd"}
 ```
+
+---
+
+```{r, child="us_market.Rmd"}
+```
+
 
 ---
 
