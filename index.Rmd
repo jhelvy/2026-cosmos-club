@@ -18,7 +18,22 @@ output:
 ```{r, child="setup.Rmd"}
 ```
 
-# .center[China is posting some impressive EV numbers]
+<center>
+<img src="images/ev-rev.jpeg" width=45%>
+.font70[https://www.iea.org/reports/global-ev-outlook-2025]
+</center>
+
+---
+
+background-color: #fff
+
+<center>
+<img src="images/world-ev-sales-line.png" width=85%>
+</center>
+
+---
+
+# .center[China is driving the EV revolution]
 
 <br>
 
