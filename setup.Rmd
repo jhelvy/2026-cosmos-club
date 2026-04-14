@@ -15,6 +15,9 @@
 
 ```{r setup, include=FALSE}
 library(knitr)
+library(tidyverse)
+library(here)
+library(kableExtra)
 library(fontawesome)
 library(metathis)
 

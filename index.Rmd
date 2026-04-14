@@ -18,51 +18,39 @@ output:
 ```{r, child="setup.Rmd"}
 ```
 
----
-
-```{r, child="us_market.Rmd"}
-```
-
-
----
-
 # .center[China is posting some impressive EV numbers]
 
 <br>
 
 --
 
-### PEV sales (BEV + PHEV): **1.37 M (2020) --> 12.9 M (2024)**
+### PEV sales (BEV + PHEV): **1.37 M (2020) --> 16.5 M (2025)**
 
-<div><span class="tab"><span class="tab"><span class="tab"></span>&nbsp;&nbsp;&nbsp;(46.7% of sales)</div>
+<div><span class="tab"><span class="tab"><span class="tab"></span>&nbsp;&nbsp;&nbsp;(54.8% of sales)</div>
 
 --
 
 <br>
 
-### PEV exports (BEV + PHEV): **0.2 M (2020) --> 1.28 M (2024)**
+### PEV exports (BEV + PHEV): **0.2 M (2020) --> 2.62 M (2025)**
 
-<div><span class="tab"><span class="tab"><span class="tab"></span>&nbsp;&nbsp;&nbsp;(25% of vehicle exports)</div>
+<div><span class="tab"><span class="tab"><span class="tab"></span>&nbsp;&nbsp;&nbsp;(43% of vehicle exports)</div>
 
 ---
 
 background-color: #fff
 
 <center>
-<img src="images/annual-sales.png" width=80%>
+<img src="images/annual-sales-china.png" width=84%>
 </center>
 
 ---
 
 background-color: #fff
 
-## .center[EV sales in US reaching ~10% of sales]
-
 <center>
-<img src="images/ev-sales-us.png" width=70%>
+<img src="images/annual-sales-comparison.png" width=100%>
 </center>
-
-.font80[Source: Argonne National Lab, https://www.anl.gov/ev-facts/model-sales]
 
 ---
 
@@ -83,23 +71,6 @@ class: center
 ### The EV sector has an affordability problem<br>(except in China)
 
 ]
-
----
-
-class: center
-background-color: #fff
-
-## BEVs Concentrated in High-Price Segments in US
-
-<br>
-
-**In 2024, only 2.2% of new and 3.6% of used listings under $45,000 were BEVs**
-
-<center>
-<img src="images/bev_percent_listings.png" width=100%>
-</center>
-
-.font80[Data pulled from ~80k dealerships, 2016 to 2024. Source: marketcheck.com]
 
 ---
 
@@ -136,6 +107,14 @@ class: center
 </center>
 
 Data scraped from autocango.com (China) and carsheet.io (USA)
+
+---
+
+
+
+
+
+
 
 ---
 
@@ -198,7 +177,7 @@ background-size: cover
 
 <br>
 
-### <span class="white-text">https://jhelvy.github.io/2025-ucsd-us-china</span>
+### <span class="white-text">https://jhelvy.github.io/2026-cosmos-club</span>
 
 <style>
 .white-text a {
@@ -208,10 +187,10 @@ background-size: cover
 
 .footer-large[.white[.right[
 
-@jhelvy.bsky.social `r fa(name = "bluesky", fill = "white")`<br>
 @jhelvy `r fa(name = "github", fill = "white")`<br>
 jhelvy.com `r fa(name = "link", fill = "white")`<br>
-jph@gwu.edu `r fa(name = "paper-plane", fill = "white")`
+jph@gwu.edu `r fa(name = "paper-plane", fill = "white")`<br>
+@jhelvy.bsky.social `r fa(name = "bluesky", fill = "white")`
 
 ]]]
 
@@ -223,24 +202,6 @@ class: inverse, middle, center
 
 ---
 
-.leftcol75[
-
-<center>
-<img src="images/covid.png" width=100%>
-</center>
-
-.font60[Source: Roberson, Laura A., *Pantha, S., & Helveston, J.P. (2024) “Battery-Powered Bargains? Assessing Electric Vehicle Resale Value in the United States” Environmental Research Letters.]
-
-]
-
-.rightcol25[
-
-### .center[Used market is more affordable, but post-COVID prices are up in all markets, not just EVs]
-
-]
-
----
-
 class: center
 background-color: #fff
 
@@ -249,3 +210,20 @@ background-color: #fff
 <center>
 <img src="images/burden_map_25k.png" width=100%>
 </center>
+
+---
+
+class: center
+background-color: #fff
+
+## BEVs Concentrated in High-Price Segments in US
+
+<br>
+
+**In 2024, only 2.2% of new and 3.6% of used listings under $45,000 were BEVs**
+
+<center>
+<img src="images/bev_percent_listings.png" width=100%>
+</center>
+
+.font80[Data pulled from ~80k dealerships, 2016 to 2024. Source: marketcheck.com]
