@@ -1,0 +1,56 @@
+
+---
+
+# .center[**Bipartisan goal**: The US needs to counter China's lead in clean energy tech]
+
+<br>
+
+--
+
+## **Keep Chinese clean tech out of US market**: Steep tariffs on imported Chinese EVs, batteries, PV modules
+
+--
+
+## **Keep Chinese firms out of US clean tech supply chains**: IRA restrictions on EV subsidy elligiblity, stricter Foreign Entities of Concern (FEOC) rules
+
+---
+
+# .center[Countering China by Investing in Manufacturing]
+
+<br>
+
+## **IRA Strategy**: Investing in *manufacturing* will lead to enduring support for clean tech through local jobs & economic benefits
+
+<br>
+
+--
+
+## ...strategy hasn't entirely worked 😔<br>(2 years wasn't enough time)
+
+---
+
+## .center[**Opportunities**]
+
+.leftcol[
+
+## Chinese FDI into U.S.
+
+### **Gotion batteries**: Multi-billion dollar investments in Illinois and Michigan
+
+### **Challenge**: Uncertainty around Foreign Entities of Concern (FEOC) status
+
+]
+
+--
+
+.rightcol[
+
+## Technology Licensing Agreements
+
+### **Ford-CATL**: Licensing battery technology in a Michigan plant
+
+### **Challenge**: CATL was recently added to DOD's list of “Chinese military companies”
+
+]
+
+
