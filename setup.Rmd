@@ -64,25 +64,32 @@ meta() %>%
   )
 
 # Vehicle listings summary table
-summary_dt_raw <- read_csv(here('data', 'listings_summary.csv'))
-total_listings <- sum(summary_dt_raw$n) / 10^6
-summary_dt <- summary_dt_raw %>% 
+summary_dt_raw <- read_csv(here('data', 'listings_summary.csv')) %>% 
+   filter(vehicle_type %in% c('car', 'cuv', 'suv')) %>% 
+    filter(powertrain %in% c('cv', 'hev', 'bev', 'phev')) %>% 
     mutate(
-        n = scales::comma(n), 
+        vehicle_type = ifelse(vehicle_type == 'cuv', 'suv', vehicle_type),
         vehicle_type = ifelse(vehicle_type == 'car', 'Car', 'SUV')
     ) %>% 
+    group_by(powertrain, vehicle_type, inventory_type) %>% 
+    summarise(n = sum(n)) %>% 
+    ungroup() %>% 
+    mutate(n = round(n / 10^6, 1))
+
+total_listings <- sum(summary_dt_raw$n) 
+summary_dt <- summary_dt_raw %>%
     pivot_wider(
         names_from = powertrain,
         values_from = n
     ) %>% 
     select(
         Type = vehicle_type,
-        Conventional = conventional, 
+        Conventional = cv, 
         Hybrid = hev, 
         PHEV = phev, 
         BEV = bev, 
         inventory_type
     ) %>% 
     mutate(PHEV = ifelse(is.na(PHEV), 0, PHEV)) %>% 
-    rename(CV = Conventional, HEV = Hybrid)
+    rename(ICEV = Conventional, HEV = Hybrid)
 ```

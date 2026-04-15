@@ -261,16 +261,20 @@ background-size: cover
 
 class: center, middle, inverse
 
-# Using vehicle listings to<br>quantify EV market development
+# Using **vehicle listings** to<br>quantify market development
 
 ---
 
 class: center
 background-color: #fff
 
-### .center[**Data**: `r round(total_listings, 1)`M vehicle listings from ~60k dealerships (marketcheck.com)<br>(2016 - 2024, inclusive)]
+### .center[**Data**: `r round(total_listings)`M vehicle listings from 60k dealerships (marketcheck.com)<br>(2016 - 2025, inclusive)]
 
-#### New Vehicles
+<br>
+
+.leftcol[
+
+#### New Vehicles (Million)
 
 ```{r}
 #| echo: false
@@ -281,7 +285,11 @@ summary_dt %>%
     kbl() 
 ```
 
-#### Used Vehicles
+]
+
+.rightcol[
+
+#### Used Vehicles (Million)
 
 ```{r}
 #| echo: false
@@ -291,6 +299,8 @@ summary_dt %>%
     select(-inventory_type) %>% 
     kbl() 
 ```
+
+]
 
 ---
 
@@ -312,21 +322,364 @@ class: center
 
 class: center
 
-## PEVs still a small % of overall listings (7% new, 4% used)
+## BEV affordability still a major challenge<br>**Majority of growth in high-price segments**
 
 <center>
-<img src="images/pev-percent-listings.png" width=95%>
+<img src="images/bev_percent_listings_price_bin.png" width=100%>
 </center>
 
 ---
 
-class: center
+class: inverse, middle, center
 
-## PEV affordability still a major challenge<br>**Majority of growth in high-price segments**
+# Quantifying BEV Affordability 
+
+---
+
+### .center[**Local vehicle market**: Vehicles in 90 minute driving isochrone]
+
+.leftcol40[
+
+Combine ML algorithm of predicted household vehicle budget with local market characteristics
+
+]
+
+.rightcol60[
 
 <center>
-<img src="images/pev_percent_listings_price_bin.png" width=100%>
+<img src="images/local_market.png" width=100%>
 </center>
+
+]
+
+---
+
+background-image: url("images/map_usa.png")
+background-size: cover
+
+---
+
+class: inverse, middle, center
+
+# What should the US do?
+
+---
+
+# .center[**A Decade of Policy Whiplash**]
+
+<br>
+
+--
+
+.cols3[
+
+### Obama (2009–2016)
+
+- $7,500 EV tax credit
+- Goal: 1M EVs by 2015
+- DOE battery R&D investment
+
+]
+
+--
+
+.cols3[
+
+### Trump I (2017–2020)
+
+- Proposed eliminating EV tax credits
+- Rolled back fuel economy standards
+- Withdrew from Paris Agreement
+
+]
+
+--
+
+.cols3[
+
+### Biden (2021–2024)
+
+- IRA: $369B in clean energy investment
+- Expanded EV credits, domestic content rules
+- 100% EV federal fleet goal
+
+]
+
+--
+
+### .red[.center[Impossible for automakers<br>to justify long-term BEV investments]]
+
+---
+
+# .center[**Bipartisan goal**: The US needs to counter China's lead in clean energy tech]
+
+<br>
+
+--
+
+## **Keep Chinese clean tech out of US market**: Steep tariffs on imported Chinese EVs, batteries, PV modules
+
+--
+
+## **Keep Chinese firms out of US clean tech supply chains**: IRA restrictions on EV subsidy eligibility, stricter Foreign Entities of Concern (FEOC) rules
+
+---
+
+## .center[**Opportunities Blocked by Policy Uncertainty**]
+
+.leftcol[
+
+## Chinese FDI into U.S.
+
+### **Gotion batteries**: Multi-billion dollar investments in Illinois and Michigan
+
+### **Challenge**: Uncertainty around Foreign Entities of Concern (FEOC) status
+
+]
+
+--
+
+.rightcol[
+
+## Technology Licensing Agreements
+
+### **Ford-CATL**: Licensing battery technology in a Michigan plant
+
+### **Challenge**: CATL recently added to DOD's list of "Chinese military companies"
+
+]
+
+---
+
+class: inverse, middle, center
+
+# The Stakes
+
+---
+
+# .center[Three Risks]
+
+<br>
+
+--
+
+### 🌍 **Global Market Share Erosion**
+U.S. autos will not be competitive abroad without affordable EVs — GM went from **+25% margins** in China to **–20.5% margins** in just a few years
+
+--
+
+### 💼 **Employment**
+U.S. auto employs **10.1 million Americans**, generating **$730B** in annual paychecks (~5% of all private-sector employment)
+
+--
+
+### 🌡️ **Climate**
+Light-duty vehicles generate **16% of U.S. carbon emissions** — affordable PEVs are essential to meeting any serious climate target
+
+---
+
+class: center, middle
+
+## The U.S. risks becoming an **"island of tailpipes"**
+
+### Isolated from global automotive innovation<br>while the rest of the world electrifies
+
+---
+
+class: inverse, middle, center
+
+# The Path Forward:<br>Strategic Collaboration
+
+---
+
+# .center[Lessons from China's Rise in EVs]
+
+<br>
+
+.leftcol[
+
+## .red[Wrong lesson]
+
+### China cheated its way to the top via subsidies → **exclude them**
+
+]
+
+--
+
+.rightcol[
+
+## .green[Right lesson]
+
+### China built real competitive advantages in manufacturing and supply chains →<br> **engage strategically**
+
+]
+
+---
+
+# .center[The Tesla Precedent]
+
+<br>
+
+### China had real security concerns about Tesla: cameras, sensors, data near sensitive sites
+
+--
+
+<br>
+
+### Tesla's solution — targeted compliance, not exclusion:
+
+- Store all vehicle data **within China** (preventing U.S. government access)
+- Restrict operations near **designated sensitive areas**
+- Use only **Chinese government-approved** mapping systems
+
+--
+
+<br>
+
+### .green[Result: China granted Tesla Full Self-Driving approval — and Tesla became China's top-selling BEV brand]
+
+--
+
+<br>
+
+### .center[Security concerns **can** be managed through transparent standards — not blanket bans]
+
+---
+
+# .center[The European Model]
+
+<br>
+
+### Europe chose engagement over exclusion — and is getting local investment in return
+
+--
+
+<br>
+
+.leftcol[
+
+### **CATL** → Hungary
+$7.6B battery plant in Debrecen<br>
+100 GWh/year for Mercedes-Benz, BMW, Volkswagen
+
+]
+
+--
+
+.rightcol[
+
+### **BYD** → Hungary
+First European EV manufacturing facility<br>
+Producing BEVs and PHEVs for the European market
+
+]
+
+--
+
+<br><br>
+
+.center[### European automakers gain access to cutting-edge battery tech<br>while creating local jobs and supply chain resilience]
+
+---
+
+# .center[Strategic Response Options]
+
+<br>
+
+### 🇨🇦🇲🇽 **North American Integration**: Build sufficient scale through Canada and Mexico partnerships
+
+--
+
+### 📋 **Transparent Security Standards**: Develop compliance frameworks all connected vehicles must meet — *regardless of origin*
+
+--
+
+### 🔋 **Battery Manufacturing Focus**: Prioritize domestic production as platform for commercializing next-gen U.S. technologies
+
+--
+
+### 🤝 **Strategic Chinese Partnerships**: Pursue licensing agreements and FDI with targeted safeguards — not wholesale restrictions
+
+--
+
+### 📈 **Sustained Policy Support**: Restore and maintain IRA incentives long enough for investment to mature
+
+---
+
+class: center, middle
+
+.leftcol[
+
+## The alternative
+
+Exclude Chinese technology<br>
+U.S. automakers remain uncompetitive<br>
+Global EV transition delayed<br>
+Climate goals missed<br>
+10M jobs at risk
+
+]
+
+.rightcol[
+
+## The opportunity
+
+Strategic engagement<br>
+Access to manufacturing scale + cost advantages<br>
+U.S. strengths in advanced R&D preserved<br>
+Affordable EVs for American consumers<br>
+U.S. remains relevant in global auto
+
+]
+
+---
+
+class: inverse, middle, center
+
+### The question isn't whether to engage with China's EV industry
+
+--
+
+### The question is whether we engage **strategically** —
+
+--
+
+### or get left behind by refusing to engage **at all**
+
+---
+
+class: inverse 
+background-image: url("images/blue.jpg")
+background-size: cover
+
+<br>
+
+# Thanks!
+
+<br>
+
+### Slides available at <span class="white-text">jhelvy.com/slides</span>
+
+<style>
+.white-text a {
+  color: white !important;
+}
+</style>
+
+.footer-large[.white[.right[
+
+@jhelvy `r fa(name = "github", fill = "white")`<br>
+jhelvy.com `r fa(name = "link", fill = "white")`<br>
+jph@gwu.edu `r fa(name = "paper-plane", fill = "white")`<br>
+@jhelvy.bsky.social `r fa(name = "bluesky", fill = "white")`
+
+]]]
+
+---
+
+class: inverse, middle, center
+
+# Extra Slides
 
 ---
 
@@ -396,176 +749,6 @@ Places with worse PEV access:
 
 ---
 
-class: middle, center
-background-color: #fff
-
-.leftcol70[
-
-<center>
-<img src="images/pev-access-time-map.png" width=100%>
-</center>
-
-]
-
-.rightcol30[
-
-### “PEV Deserts” exist in some areas, particularly in <$20,000 price range
-
-]
-
----
-
-class: middle, center
-background-color: #fff
-
-## **Key Finding**: EV accessibility is spatially concentrated
-
-### Transportation electrification will be **geographically clustered** rather than evenly distributed
-
-<center><img src="images/urban-vs-rural.png" width=60%></center>
-
-
----
-
-# What should the US do?
-
----
-
----
-
-# .center[**Bipartisan goal**: The US needs to counter China's lead in clean energy tech]
-
-<br>
-
---
-
-## **Keep Chinese clean tech out of US market**: Steep tariffs on imported Chinese EVs, batteries, PV modules
-
---
-
-## **Keep Chinese firms out of US clean tech supply chains**: IRA restrictions on EV subsidy elligiblity, stricter Foreign Entities of Concern (FEOC) rules
-
----
-
-# .center[Countering China by Investing in Manufacturing]
-
-<br>
-
-## **IRA Strategy**: Investing in *manufacturing* will lead to enduring support for clean tech through local jobs & economic benefits
-
-<br>
-
---
-
-## ...strategy hasn't entirely worked 😔<br>(2 years wasn't enough time)
-
----
-
-## .center[**Opportunities**]
-
-.leftcol[
-
-## Chinese FDI into U.S.
-
-### **Gotion batteries**: Multi-billion dollar investments in Illinois and Michigan
-
-### **Challenge**: Uncertainty around Foreign Entities of Concern (FEOC) status
-
-]
-
---
-
-.rightcol[
-
-## Technology Licensing Agreements
-
-### **Ford-CATL**: Licensing battery technology in a Michigan plant
-
-### **Challenge**: CATL was recently added to DOD's list of “Chinese military companies”
-
-]
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-# Strategic Implications
-
-<br>
-
-### **Global Market Share Erosion**: U.S. autos will not be competitive abroad without affordable EVs
-
-<br>
-
-### **Trade Imbalance**: U.S. could go from net vehicle _exporter_ to _importer_ 
-
-### (U.S. exported $15B in vehicles and parts to Canada in 2024 🇨🇦)
-
-<br>
-
-### **Exployment Impacts**:  U.S. auto employs 10.1 million Americans, $730B in annual paychecks
-
----
-
-# Strategic Response Options
-
-<br>
-
-### **North American Integration**: Create sufficient scale with Canada and Mexico partnerships 🇨🇦🇲🇽
-
-### **Sustained Policy Support**: Maintain IRA incentives during transition
-
-### **Battery Manufacturing Focus**: Prioritize domestic production
-### (Platform for commercializing next-gen US technologies)
-
-### **Strategic Chinese Partnerships**: Form tech relationships for market access, e.g. licensing agreements and FDI
-
----
-
-class: inverse 
-background-image: url("images/blue.jpg")
-background-size: cover
-
-<br>
-
-# Thanks!
-
-<br>
-
-### Slides available at <span class="white-text">jhelvy.com/slides</span>
-
-<style>
-.white-text a {
-  color: white !important;
-}
-</style>
-
-.footer-large[.white[.right[
-
-@jhelvy `r fa(name = "github", fill = "white")`<br>
-jhelvy.com `r fa(name = "link", fill = "white")`<br>
-jph@gwu.edu `r fa(name = "paper-plane", fill = "white")`<br>
-@jhelvy.bsky.social `r fa(name = "bluesky", fill = "white")`
-
-]]]
-
----
-
-class: inverse, middle, center
-
-# Extra Slides
-
----
-
 class: center
 background-color: #fff
 
@@ -577,27 +760,9 @@ background-color: #fff
 
 ---
 
-class: center
+class: middle, center
 background-color: #fff
 
-## BEVs Concentrated in High-Price Segments in US
+## **Key Finding**: EV accessibility is spatially concentrated
 
-<br>
-
-**In 2024, only 2.2% of new and 3.6% of used listings under $45,000 were BEVs**
-
-<center>
-<img src="images/bev_percent_listings.png" width=100%>
-</center>
-
-.font80[Data pulled from ~80k dealerships, 2016 to 2024. Source: marketcheck.com]
-
-
-
-
-
-
-
-
-
-
+### Transportation electrification will be **geographically clustered** rather than evenly distributed
