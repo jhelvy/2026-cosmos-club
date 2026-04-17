@@ -149,6 +149,21 @@ class: inverse, middle, center
 
 ---
 
+background-image: url("images/involution1.png")
+background-size: cover
+
+---
+
+background-image: url("images/involution2.png")
+background-size: cover
+
+---
+
+background-image: url("images/involution3.png")
+background-size: cover
+
+---
+
 class: center
 
 # The Chinese Joint Venture System
@@ -231,6 +246,59 @@ class: inverse, middle, center
 
 ---
 
+# .center[**Decades of Policy Whiplash**]
+
+<br>
+
+--
+
+.cols4[
+
+### Obama<br>(2009–2016)
+
+- $7,500 EV tax credit
+- Goal: 1M EVs by 2015
+- DOE battery R&D investment
+
+]
+
+--
+
+.cols4[
+
+### Trump I<br>(2017–2020)
+
+- Proposed eliminating EV tax credits
+- Rolled back fuel economy standards
+- Withdrew from Paris Agreement
+
+]
+
+--
+
+.cols4[
+
+### Biden<br>(2021–2024)
+
+- IRA: $369B in clean energy investment
+- Expanded EV credits, domestic content rules
+- 100% EV federal fleet goal
+
+]
+
+--
+
+.cols4[
+
+### Trump II<br>(2025–Now)
+
+- Gutted IRA
+- Rolled back fuel economy standards
+
+]
+
+---
+
 class: center
 
 ## US buyers are more opposed to EVs than Chinese buyers
@@ -277,52 +345,15 @@ class: center, middle, inverse
 
 # Using **vehicle listings** to<br>quantify market development
 
----
-
-class: center
-background-color: #fff
-
 <br>
 
 ### .center[**`r round(total_listings)`M vehicle listings** from 60k dealerships<br>(2016 - 2025, inclusive)]
-
-<br>
-
-.leftcol[
-
-#### New Vehicles (Million)
-
-```{r}
-#| echo: false
-
-summary_dt %>%
-    filter(inventory_type == 'new') %>% 
-    select(-inventory_type) %>% 
-    kbl() 
-```
-
-]
-
-.rightcol[
-
-#### Used Vehicles (Million)
-
-```{r}
-#| echo: false
-
-summary_dt %>%
-    filter(inventory_type == 'used') %>% 
-    select(-inventory_type) %>% 
-    kbl() 
-```
-
-]
 
 ---
 
 class: inverse, middle, center
 
-# How many dealerships are carrying PEVs?
+# How many dealerships are carrying EVs?
 
 ---
 
@@ -358,7 +389,7 @@ class: inverse, middle, center
 
 .leftcol40[
 
-Combine ML algorithm of predicted household vehicle budget with local market characteristics
+Combine ML algorithm of predicted household vehicle budget (using Census data) with local market characteristics
 
 ]
 
@@ -379,78 +410,41 @@ background-size: cover
 
 class: inverse, middle, center
 
-# What should the US do?
+# How should the US respond to Chinese EVs?
 
 ---
 
-# .center[**A Decade of Policy Whiplash**]
-
-<br>
-
---
-
-.cols3[
-
-### Obama (2009–2016)
-
-- $7,500 EV tax credit
-- Goal: 1M EVs by 2015
-- DOE battery R&D investment
-
-]
-
---
-
-.cols3[
-
-### Trump I (2017–2020)
-
-- Proposed eliminating EV tax credits
-- Rolled back fuel economy standards
-- Withdrew from Paris Agreement
-
-]
-
---
-
-.cols3[
-
-### Biden (2021–2024)
-
-- IRA: $369B in clean energy investment
-- Expanded EV credits, domestic content rules
-- 100% EV federal fleet goal
-
-]
-
---
-
-### .red[.center[Impossible for automakers<br>to justify long-term BEV investments]]
+background-image: url("images/ev-google-search.png")
+background-size: cover
 
 ---
 
-# .center[**Bipartisan goal**: The US needs to counter China's lead in clean energy tech]
+background-image: url("images/public-opinion.png")
+background-size: cover
+
+---
+
+<center>
+<img src="images/ford-xiaomi.png" width=80%>
+</center>
+
+---
+
+## .center[**Bipartisan Response: .red[Ban the Chinese tech]**]
 
 <br>
-
---
-
-## .center[**.red[Response: Ban the Chinese tech]**]
-
---
 
 ## **Out of US market**: Steep tariffs on imported Chinese EVs, batteries, PV modules
 
---
+<br>
 
 ## **Out of US supply chains**: IRA restrictions on EV subsidy eligibility, stricter Foreign Entities of Concern (FEOC) rules
 
 ---
 
+class: center
 
-# .center[Lessons from China's Rise in EVs]
-
-<br>
+<br><br><br>
 
 .leftcol[
 
@@ -595,16 +589,11 @@ class: center, middle
 
 ## The U.S. risks becoming an **"island of tailpipes"**
 
-### Isolated from global automotive innovation<br>while the rest of the world electrifies
-
 ---
 
 class: inverse, middle, center
 
 # The Path Forward:<br>Strategic Collaboration
-
----
-
 
 ---
 
@@ -632,31 +621,7 @@ class: inverse, middle, center
 
 ---
 
-class: center, middle
 
-.leftcol[
-
-## The alternative
-
-Exclude Chinese technology<br>
-U.S. automakers remain uncompetitive<br>
-Global EV transition delayed<br>
-Climate goals missed<br>
-10M jobs at risk
-
-]
-
-.rightcol[
-
-## The opportunity
-
-Strategic engagement<br>
-Access to manufacturing scale + cost advantages<br>
-U.S. strengths in advanced R&D preserved<br>
-Affordable EVs for American consumers<br>
-U.S. remains relevant in global auto
-
-]
 
 ---
 
@@ -792,3 +757,5 @@ background-color: #fff
 ## **Key Finding**: EV accessibility is spatially concentrated
 
 ### Transportation electrification will be **geographically clustered** rather than evenly distributed
+
+---
