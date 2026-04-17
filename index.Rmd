@@ -379,30 +379,6 @@ class: center
 
 ---
 
-class: inverse, middle, center
-
-# Quantifying BEV Affordability 
-
----
-
-### .center[**Local vehicle market**: Vehicles in 90 minute driving isochrone]
-
-.leftcol40[
-
-Combine ML algorithm of predicted household vehicle budget (using Census data) with local market characteristics
-
-]
-
-.rightcol60[
-
-<center>
-<img src="images/local_market.png" width=100%>
-</center>
-
-]
-
----
-
 background-image: url("images/map_usa.png")
 background-size: cover
 
@@ -470,7 +446,7 @@ class: center
 
 <br>
 
-### China had real security concerns about Tesla: cameras, sensors, data near sensitive sites
+### China concerned about security:<br>Tesla cameras, sensors, data near sensitive sites, etc.
 
 --
 
@@ -484,15 +460,7 @@ class: center
 
 --
 
-<br>
-
-### .green[Result: China granted Tesla Full Self-Driving approval — and Tesla became China's top-selling BEV brand]
-
---
-
-<br>
-
-### .center[Security concerns **can** be managed through transparent standards — not blanket bans]
+### .center[.red[Security concerns managed through transparent standards, not bans]]
 
 ---
 
@@ -500,43 +468,41 @@ class: center
 
 <br>
 
-### Europe chose engagement over exclusion — and is getting local investment in return
+### .center[Tariffs to decrease imports while welcoming investment]
+
+- Access to cutting-edge battery tech
+- Create local jobs
+- Increase supply chain resilience
 
 --
 
-<br>
-
 .leftcol[
 
-### **CATL** → Hungary
+### .center[**CATL**]
+
 $7.6B battery plant in Debrecen<br>
+
 100 GWh/year for Mercedes-Benz, BMW, Volkswagen
 
 ]
 
---
-
 .rightcol[
 
-### **BYD** → Hungary
+### .center[**BYD**]
+
 First European EV manufacturing facility<br>
+
 Producing BEVs and PHEVs for the European market
 
 ]
 
---
-
-<br><br>
-
-.center[### European automakers gain access to cutting-edge battery tech<br>while creating local jobs and supply chain resilience]
-
 ---
 
-## .center[**Opportunities Blocked by Policy Uncertainty**]
+## .center[**US Opportunities**]
 
 .leftcol[
 
-## Chinese FDI into U.S.
+## .center[Chinese FDI into U.S.]
 
 ### **Gotion batteries**: Multi-billion dollar investments in Illinois and Michigan
 
@@ -548,7 +514,7 @@ Producing BEVs and PHEVs for the European market
 
 .rightcol[
 
-## Technology Licensing Agreements
+## .center[Technology Licensing Agreements]
 
 ### **Ford-CATL**: Licensing battery technology in a Michigan plant
 
@@ -560,46 +526,11 @@ Producing BEVs and PHEVs for the European market
 
 class: inverse, middle, center
 
-# The Stakes
-
----
-
-# .center[Three Risks]
-
-<br>
-
---
-
-### 🌍 **Global Market Share Erosion**
-U.S. autos will not be competitive abroad without affordable EVs — GM went from **+25% margins** in China to **–20.5% margins** in just a few years
-
---
-
-### 💼 **Employment**
-U.S. auto employs **10.1 million Americans**, generating **$730B** in annual paychecks (~5% of all private-sector employment)
-
---
-
-### 🌡️ **Climate**
-Light-duty vehicles generate **16% of U.S. carbon emissions** — affordable PEVs are essential to meeting any serious climate target
-
----
-
-class: center, middle
-
 ## The U.S. risks becoming an **"island of tailpipes"**
 
 ---
 
-class: inverse, middle, center
-
-# The Path Forward:<br>Strategic Collaboration
-
----
-
-# .center[Strategic Response Options]
-
-<br>
+# .center[Strategic Responses]
 
 ### 🇨🇦🇲🇽 **North American Integration**: Build sufficient scale through Canada and Mexico partnerships
 
@@ -618,24 +549,6 @@ class: inverse, middle, center
 --
 
 ### 📈 **Sustained Policy Support**: Restore and maintain IRA incentives long enough for investment to mature
-
----
-
-
-
----
-
-class: inverse, middle, center
-
-### The question isn't whether to engage with China's EV industry
-
---
-
-### The question is whether we engage **strategically** —
-
---
-
-### or get left behind by refusing to engage **at all**
 
 ---
 
@@ -740,22 +653,18 @@ Places with worse PEV access:
 
 ---
 
-class: center
-background-color: #fff
+### .center[**Local vehicle market**: Vehicles in 90 minute driving isochrone]
 
-# The BEV Deserts of America
+.leftcol40[
+
+Combine ML algorithm of predicted household vehicle budget (using Census data) with local market characteristics
+
+]
+
+.rightcol60[
 
 <center>
-<img src="images/burden_map_25k.png" width=100%>
+<img src="images/local_market.png" width=100%>
 </center>
 
----
-
-class: middle, center
-background-color: #fff
-
-## **Key Finding**: EV accessibility is spatially concentrated
-
-### Transportation electrification will be **geographically clustered** rather than evenly distributed
-
----
+]
