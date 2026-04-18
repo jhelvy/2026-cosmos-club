@@ -217,7 +217,35 @@ class: center
 .leftcol55[
 
 <center>
-<img src="images/jv-ev-sales.png" width=100%>
+<img src="images/jv-ev-sales-1.png" width=100%>
+</center>
+
+]
+
+.rightcol45[
+
+<br>
+
+### Multinational OEMs lack incentives to bring cutting-edge technologies (EVs)
+
+<br>
+
+### Chinese JV partners lack incentives to independently innovate
+
+<br><br>
+
+.font70[.left[Helveston, J. P., Y. Wang, V. Karplus, E. Fuchs (2018) “Institutional Complementarities: The Origins of Experimentation in China’s Plug-in Electric Vehicle Industry.” _Research Policy_. 48(1), pg. 206-222]]
+
+]
+
+---
+
+class: center 
+
+.leftcol55[
+
+<center>
+<img src="images/jv-ev-sales-2.png" width=100%>
 </center>
 
 ]
@@ -420,7 +448,7 @@ class: inverse, middle, center
 
 ## .center[.red[Wrong lesson]]
 
-### - China cheated its way to the top with ubsidies 
+### - China cheated its way to the top with subsidies 
 
 ### - Chinese EVs are a security threat
 
