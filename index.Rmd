@@ -390,43 +390,43 @@ class: inverse, middle, center
 
 ---
 
-background-image: url("images/ev-google-search.png")
-background-size: cover
+## .center[Bipartisan Response: **Ban the Chinese tech**]
 
----
-
-background-image: url("images/public-opinion.png")
-background-size: cover
-
----
+.leftcol[
 
 <center>
-<img src="images/ford-xiaomi.png" width=80%>
-</center>
+<img src="images/lutnick.png" width=100%>
+<i/center>
 
----
-
-## .center[**Bipartisan Response: .red[Ban the Chinese tech]**]
+]
 
 <br>
 
-## **Out of US market**: Steep tariffs on imported Chinese EVs, batteries, PV modules
+.rightcol[
+
+### **Block imports**: Steep tariffs on imported Chinese EVs, batteries (First Biden, continued w/Trump)
 
 <br>
 
-## **Out of US supply chains**: IRA restrictions on EV subsidy eligibility, stricter Foreign Entities of Concern (FEOC) rules
+### **Block investment**: Stricter Foreign Entities of Concern (FEOC) rules
+
+]
 
 ---
-
-class: center
 
 <br><br><br>
 
 .leftcol[
 
-## .red[Wrong lesson]
+## .center[.red[Wrong lesson]]
 
-### China cheated its way to the top via subsidies → **exclude them**
+### - China cheated its way to the top with ubsidies 
+
+### - Chinese EVs are a security threat
+
+### - Chinese EVs will destroy the US auto sector
+
+### → **Exclude them**
 
 ]
 
@@ -434,33 +434,40 @@ class: center
 
 .rightcol[
 
-## .green[Right lesson]
+## .center[.green[Right lesson]]
 
-### China built real competitive advantages in manufacturing and supply chains →<br> **engage strategically**
+### - China built real competitive advantages in manufacturing and supply chains 
+
+### - Chinese EV tech is winning global markets
+
+### → **Engage strategically**
 
 ]
 
 ---
 
-# .center[The Tesla Precedent]
+.leftcol[
+
+# .center[The Tesla Example]
 
 <br>
 
-### China concerned about security:<br>Tesla cameras, sensors, data near sensitive sites, etc.
+### Targeted compliance, not exclusion:
 
---
+- Store vehicle data **within China**
+- Restrict operations near **sensitive areas**
+- Use only **government-approved** mapping systems (Baidu)
+
+]
+
+.rightcol[
 
 <br>
+<center>
+<img src="images/tesla.png" width=70%>
+</center>
 
-### Tesla's solution — targeted compliance, not exclusion:
-
-- Store all vehicle data **within China** (preventing U.S. government access)
-- Restrict operations near **designated sensitive areas**
-- Use only **Chinese government-approved** mapping systems
-
---
-
-### .center[.red[Security concerns managed through transparent standards, not bans]]
+]
 
 ---
 
@@ -498,21 +505,9 @@ Producing BEVs and PHEVs for the European market
 
 ---
 
-## .center[**US Opportunities**]
+# .center[US Opportunities]
 
 .leftcol[
-
-## .center[Chinese FDI into U.S.]
-
-### **Gotion batteries**: Multi-billion dollar investments in Illinois and Michigan
-
-### **Challenge**: Uncertainty around Foreign Entities of Concern (FEOC) status
-
-]
-
---
-
-.rightcol[
 
 ## .center[Technology Licensing Agreements]
 
@@ -522,11 +517,39 @@ Producing BEVs and PHEVs for the European market
 
 ]
 
+--
+
+.rightcol[
+
+## .center[Chinese FDI<br>into U.S.]
+
+### **Gotion batteries**: Multi-billion dollar investments in Illinois and Michigan
+
+### **Challenge**: Uncertainty around Foreign Entities of Concern (FEOC) status
+
+]
+
 ---
 
 class: inverse, middle, center
 
 ## The U.S. risks becoming an **"island of tailpipes"**
+
+---
+
+background-image: url("images/ev-google-search.png")
+background-size: cover
+
+---
+
+background-image: url("images/public-opinion.png")
+background-size: cover
+
+---
+
+<center>
+<img src="images/ford-xiaomi.png" width=80%>
+</center>
 
 ---
 
@@ -548,7 +571,7 @@ class: inverse, middle, center
 
 --
 
-### 📈 **Sustained Policy Support**: Restore and maintain IRA incentives long enough for investment to mature
+### 📈 **Sustained Policy Support**: Restore and maintain IRA incentives long enough for investments to mature
 
 ---
 
