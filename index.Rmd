@@ -79,20 +79,6 @@ Interactive version at https://jhelvy.github.io/science-2025/
 
 ---
 
-class: center
-
-### China offers more affordable BEVs across all range categories
-
-<center>
-<img src="images/range-price-us-china-class-2024-labels-edit.png" width=100%>
-</center>
-
-Data scraped from autocango.com (China) and carsheet.io (USA)
-
-Interactive version at https://jhelvy.github.io/science-2025/
-
----
-
 background-color: #fff
 
 ## .center[China dominates mineral processing supply chain]
@@ -125,21 +111,24 @@ class: inverse, middle, center
 
 ---
 
-background-color: #FFF
-
-.leftcol65[
+### .center[Estimated $230B in subsidies (2009 - 2023)]
 
 <center>
-<img src="images/industrial_policy_subsidies.png" width=100%>
+<img src="images/china-subsidy-table2.png" width=80%>
 </center>
 
-]
+.font60[https://www.csis.org/blogs/trustee-china-hand/chinese-ev-dilemma-subsidized-yet-striking]
 
-.rightcol35[
+---
 
-.center[China's EV subsidies are on par with typical subsidies needed to start an industry]
+class: center
+background-color: #FFF
 
-]
+## China's EV subsidies are on par with typical subsidies needed to start an industry
+
+<center>
+<img src="images/industrial_policy_subsidies_h.png" width=100%>
+</center>
 
 ---
 
@@ -149,18 +138,24 @@ class: inverse, middle, center
 
 ---
 
-background-image: url("images/involution1.png")
+background-image: url("images/images/slide2.png")
 background-size: cover
 
 ---
 
-background-image: url("images/involution2.png")
+background-image: url("images/images/slide3.png")
 background-size: cover
 
 ---
 
-background-image: url("images/involution3.png")
+background-image: url("images/images/slide4.png")
 background-size: cover
+
+---
+
+class: inverse, middle, center
+
+# Why are _Chinese_ firms making the best EVs?<br>(and not multinationals) 
 
 ---
 
@@ -327,25 +322,13 @@ class: inverse, middle, center
 
 ---
 
-class: center
-
-## US buyers are more opposed to EVs than Chinese buyers
-
-.leftcol65[
+## .center[US buyers are more opposed to EVs than Chinese buyers]
 
 <center>
-<img src="images/pev-wtp.png" width=100%>
+<img src="images/pev-wtp.png" width=80%>
 </center>
 
-]
-
-.rightcol35[
-
-<br><br><br><br><br>
-
-.left[.font80[Helveston et al. (2015) "Will subsidies drive electric vehicle adoption? Measuring consumer preferences in the U.S. and China" _Transportation Research Part A: Policy and Practice_. 73, 96–112. DOI: [10.1016/j.tra.2015.01.002](https://www.sciencedirect.com/science/article/abs/pii/S0965856415000038)]]
-
-]
+.font80[Helveston et al. (2015) "Will subsidies drive electric vehicle adoption? Measuring consumer preferences in the U.S. and China" _Transportation Research Part A: Policy and Practice_. 73, 96–112. DOI: [10.1016/j.tra.2015.01.002](https://www.sciencedirect.com/science/article/abs/pii/S0965856415000038)]
 
 ---
 
@@ -392,6 +375,22 @@ class: center
 <center>
 <img src="images/pev-percent-dealers.png" width=95%>
 </center>
+
+---
+
+.leftcol70[
+
+<center>
+<img src="images/bev_percent_listings_total.png" width=100%>
+</center>
+
+]
+
+.rightcol30[
+
+## Most dealers carry very few EVs
+
+]
 
 ---
 
@@ -641,6 +640,20 @@ jph@gwu.edu `r fa(name = "paper-plane", fill = "white")`<br>
 class: inverse, middle, center
 
 # Extra Slides
+
+---
+
+class: center
+
+### China offers more affordable BEVs across all range categories
+
+<center>
+<img src="images/range-price-us-china-class-2024-labels-edit.png" width=100%>
+</center>
+
+Data scraped from autocango.com (China) and carsheet.io (USA)
+
+Interactive version at https://jhelvy.github.io/science-2025/
 
 ---
 
