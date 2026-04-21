@@ -341,8 +341,6 @@ class: inverse, middle
 
 # .center[EV Challenges in the US]
 
---
-
 <br> 
 
 .leftcol30[
@@ -385,8 +383,6 @@ class: inverse, middle
 
 # .center[EV Challenges in the US]
 
---
-
 <br> 
 
 .leftcol30[
@@ -412,24 +408,16 @@ https://www.nytimes.com/interactive/2026/04/13/opinion/affordable-car-cost.html
 
 ---
 
-class: center, middle, inverse
-
-# Using **vehicle listings** to<br>quantify affordability
-
-<br>
-
-### .center[**`r round(total_listings)`M vehicle listings** from 60k dealerships<br>(2016 - 2025, inclusive)]
-
----
-
 background-color: #fff
 class: center
 
 # The EV "Deserts" of America
 
 <center>
-<img src="images/map_usa_new.png" width=90%>
+<img src="images/map_usa_new.png" width=80%>
 </center>
+
+.font90[.left[Data: **`r round(total_listings)`M vehicle listings** from 60k dealerships (2016 - 2025), marketcheck.com]]
 
 ---
 
@@ -441,6 +429,8 @@ class: center
 <center>
 <img src="images/map_usa.png" width=100%>
 </center>
+
+.font90[.left[Data: **`r round(total_listings)`M vehicle listings** from 60k dealerships (2016 - 2025), marketcheck.com]]
 
 ---
 
@@ -478,6 +468,8 @@ class: inverse, middle, center
 
 .leftcol[
 
+## .center[Option A]
+
 ## .center[**Exclude Chinese EVs**]
 
 ### - China "cheated" its way to the top with subsidies 
@@ -491,6 +483,8 @@ class: inverse, middle, center
 --
 
 .rightcol[
+
+## .center[Option B]
 
 ## .center[**Engage strategically**]
 
