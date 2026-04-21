@@ -97,7 +97,7 @@ class: inverse, middle, center
 
 --
 
-# .orange[*Most common answer: it's the subsidies, right?!*]
+# .orange[*It's the subsidies, right?!*]
 
 ---
 
